@@ -51,7 +51,7 @@ module.exports = {
 			'eslint-plugin-prettier'
 		]
 	},
-	husky: ['@commitlint/config-conventional', '@commitlint/cli', 'husky', 'lint-staged'],
+	husky: ['@commitlint/config-conventional@9', '@commitlint/cli@9', 'husky@4', 'lint-staged'],
 	prettier: {
 		vue: ['prettier@2.2.1', '@prettier/plugin-pug'],
 		node: ['prettier@2.2.1']
