@@ -1,40 +1,44 @@
 module.exports = {
 	eslint: {
 		'vue2 + js': [
-			'@vue/eslint-config-prettier',  
-			'babel-eslint',
-			'eslint',
-			'eslint-plugin-prettier',
-			'eslint-plugin-vue',
-			'prettier@2.2.1'
+			'@vue/eslint-config-prettier@^6.0.0',  
+			'babel-eslint@^10.1.0',
+			'eslint@^6.7.2',
+			'eslint-plugin-prettier@^3.3.1',
+			'eslint-plugin-vue@^6.2.2',
+			'prettier@2.2.1',
+			'@prettier/plugin-pug@^1.16.5'
 		],
 		'vue2 + ts': [
-			'@typescript-eslint/eslint-plugin',
-    		'@typescript-eslint/parser',
-			'@vue/eslint-config-prettier',
-			'@vue/eslint-config-typescript',
-			'eslint',
-			'eslint-plugin-prettier',
-			'eslint-plugin-vue',
-			'prettier@2.2.1'
+			'@typescript-eslint/eslint-plugin@^4.18.0',
+    		'@typescript-eslint/parser@^4.18.0',
+			'@vue/eslint-config-prettier@^6.0.0',
+			'@vue/eslint-config-typescript@^7.0.0',
+			'eslint@^6.7.2',
+			'eslint-plugin-prettier@^3.3.1',
+			'eslint-plugin-vue@^6.2.2',
+			'prettier@2.2.1',
+			'@prettier/plugin-pug@^1.16.5'
 		],
 		'vue3 + js': [
-			'@vue/eslint-config-prettier',  
-			'babel-eslint',
-			'eslint',
-			'eslint-plugin-prettier',
-			'eslint-plugin-vue',
-			'prettier@2.2.1'
+			'@vue/eslint-config-prettier@^6.0.0',  
+			'babel-eslint@^10.1.0',
+			'eslint@^6.7.2',
+			'eslint-plugin-prettier@^3.3.1',
+			'eslint-plugin-vue@^7.0.0',
+			'prettier@2.2.1',
+			'@prettier/plugin-pug@^1.16.5'
 		],
 		'vue3 + ts': [
-			'eslint',
-			'eslint-plugin-prettier',
-			'eslint-plugin-vue',
+			'eslint@^6.7.2',
+			'eslint-plugin-prettier@^3.3.1',
+			'eslint-plugin-vue@^7.0.0',
 			'prettier@2.2.1',
-			'@typescript-eslint/eslint-plugin',
-    		'@typescript-eslint/parser',
-			'@vue/eslint-config-prettier',
-    		'@vue/eslint-config-typescript',
+			'@typescript-eslint/eslint-plugin@^4.18.0',
+    		'@typescript-eslint/parser@^4.18.0',
+			'@vue/eslint-config-prettier@^6.0.0',
+    		'@vue/eslint-config-typescript@^7.0.0',
+    		'@prettier/plugin-pug@^1.16.5'
 		],
 		'node + js': [
 			'eslint',
@@ -51,9 +55,5 @@ module.exports = {
 			'eslint-plugin-prettier'
 		]
 	},
-	husky: ['@commitlint/config-conventional@9', '@commitlint/cli@9', 'husky@4', 'lint-staged'],
-	prettier: {
-		vue: ['prettier@2.2.1', '@prettier/plugin-pug'],
-		node: ['prettier@2.2.1']
-	}
+	husky: ['@commitlint/config-conventional@9', '@commitlint/cli@9', 'husky@4', 'lint-staged@10.5.4'],
 }
